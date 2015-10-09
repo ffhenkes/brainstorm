@@ -47,7 +47,7 @@ Bunch of stuff, samples discussion whatever
 
 * https://golang.org/
 * https://www.rust-lang.org/
-* 
+
 ## Libraries
 
 * http://igraph.org/
