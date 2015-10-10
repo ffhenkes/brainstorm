@@ -37,6 +37,7 @@ Bunch of stuff, samples discussion whatever
 * http://bower.io/
 * http://gulpjs.com/
 * http://gruntjs.com/
+* https://getcomposer.org/ ( php )
 
 ## Data Analisys
 
@@ -78,6 +79,14 @@ Bunch of stuff, samples discussion whatever
 
 * http://igraph.org/
 
+## Test
+
+* http://www.mbtest.org/
+* http://mochajs.org/
+* http://hamcrest.org/
+* http://casperjs.org/
+* http://phantomjs.org/
+
 ## DevOps
 
 * http://www.go.cd/
@@ -97,6 +106,7 @@ Bunch of stuff, samples discussion whatever
 * http://prometheus.io/
 * http://grafana.org/
 * http://dashing.io/
+
 
 
 
