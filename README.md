@@ -67,7 +67,8 @@ Bunch of stuff, samples discussion whatever
 
 ## Frameworks
 
-* http://spring.io/projects
+* http://spring.io/projects ( for java )
+* http://nancyfx.org/ ( for .net microservices )
 
 ## Libraries
 
