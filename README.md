@@ -24,6 +24,7 @@ Bunch of stuff, samples discussion whatever
 * http://www.typescriptlang.org/
 * https://angularjs.org/
 * https://facebook.github.io/react/
+* http://emberjs.com/
 * http://elm-lang.org/
 * http://getbootstrap.com/
 * http://foundation.zurb.com/
@@ -84,6 +85,13 @@ Bunch of stuff, samples discussion whatever
 * https://ottoproject.io/
 * http://www.ansible.com/
 * https://vaultproject.io/ 
+* 
+## Monitoring and "Dashing"
+
+* https://github.com/google/cadvisor
+* http://prometheus.io/
+* http://grafana.org/
+* http://dashing.io/
 
 
 
