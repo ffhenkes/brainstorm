@@ -54,10 +54,10 @@ Bunch of stuff, samples discussion whatever
 
 * http://igraph.org/
 
-## Videos
-
 ## Online Education
 
+* https://egghead.io/
+* http://neo4j.com/graphacademy/
 * https://www.coursera.org/
 * https://www.udemy.com/
 * https://www.udacity.com/
