@@ -100,6 +100,7 @@ Bunch of stuff, samples discussion whatever
 * https://www.vagrantup.com/
 * https://coreos.com/
 * https://terraform.io/
+* https://packer.io/
 * https://ottoproject.io/
 * http://www.ansible.com/
 * https://vaultproject.io/ 
