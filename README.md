@@ -25,7 +25,9 @@ Bunch of stuff, samples discussion whatever
 * https://angularjs.org/
 * https://facebook.github.io/react/
 * http://emberjs.com/
+* https://flightjs.github.io/
 * http://elm-lang.org/
+* http://holmsand.github.io/reagent/
 * http://getbootstrap.com/
 * http://foundation.zurb.com/
 * http://fontawesome.io/
@@ -42,6 +44,7 @@ Bunch of stuff, samples discussion whatever
 * http://cascalog.org/
 * http://spark.apache.org/
 * http://blog.brakmic.com/data-science-for-losers/
+* https://github.com/paulgb/haskell_hadoop
 
 ## Nosql Databases
 
@@ -85,7 +88,9 @@ Bunch of stuff, samples discussion whatever
 * https://ottoproject.io/
 * http://www.ansible.com/
 * https://vaultproject.io/ 
-* 
+* http://deis.io/overview/
+* http://lattice.cf/ 
+
 ## Monitoring and "Dashing"
 
 * https://github.com/google/cadvisor
