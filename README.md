@@ -24,6 +24,7 @@ Bunch of stuff, samples discussion whatever
 * http://www.typescriptlang.org/
 * https://angularjs.org/
 * https://facebook.github.io/react/
+* https://facebook.github.io/flux/
 * http://emberjs.com/
 * https://flightjs.github.io/
 * http://elm-lang.org/
@@ -37,7 +38,10 @@ Bunch of stuff, samples discussion whatever
 * http://bower.io/
 * http://gulpjs.com/
 * http://gruntjs.com/
-* https://getcomposer.org/ ( php )
+* https://getcomposer.org/ ( for php )
+* http://mozilla.github.io/localForage/#localforage
+* http://trifacta.github.io/vega/
+* https://github.com/Linkurious/linkurious.js
 
 ## Data Analisys
 
@@ -86,6 +90,8 @@ Bunch of stuff, samples discussion whatever
 * http://hamcrest.org/
 * http://casperjs.org/
 * http://phantomjs.org/
+* https://github.com/jayway/rest-assured
+* https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
 
 ## DevOps
 
@@ -106,7 +112,11 @@ Bunch of stuff, samples discussion whatever
 * http://prometheus.io/
 * http://grafana.org/
 * http://dashing.io/
+* http://bokeh.pydata.org/en/latest/
 
+## Security
+
+* https://github.com/StackExchange/blackbox*
 
 
 
