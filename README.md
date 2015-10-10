@@ -5,6 +5,7 @@ Bunch of stuff, samples discussion whatever
 ## Languages, tools and frameworks to help frontend development
 
 * https://nodejs.org/en/
+* http://www.typescriptlang.org/
 * https://angularjs.org/
 * https://facebook.github.io/react/
 * http://elm-lang.org/
@@ -52,6 +53,17 @@ Bunch of stuff, samples discussion whatever
 ## Libraries
 
 * http://igraph.org/
+
+## Videos
+
+## Online Education
+
+* https://www.coursera.org/
+* https://www.udemy.com/
+* https://www.udacity.com/
+* https://www.codecademy.com/
+* http://online.stanford.edu/courses
+* https://www.edx.org/
 
 
 
