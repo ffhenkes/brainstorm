@@ -42,6 +42,8 @@ Bunch of stuff, samples discussion whatever
 * http://mozilla.github.io/localForage/#localforage
 * http://trifacta.github.io/vega/
 * https://github.com/Linkurious/linkurious.js
+* http://yeoman.io/
+* https://slushjs.github.io/#/
 
 ## Data Analisys
 
