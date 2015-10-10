@@ -2,6 +2,18 @@
 
 Bunch of stuff, samples discussion whatever
 
+## Online Education
+
+* https://egghead.io/
+* http://neo4j.com/graphacademy/
+* https://university.mongodb.com/
+* https://www.coursera.org/
+* https://www.udemy.com/
+* https://www.udacity.com/
+* https://www.codecademy.com/
+* http://online.stanford.edu/courses
+* https://www.edx.org/
+
 ## Languages, tools and frameworks to help frontend development
 
 * https://nodejs.org/en/
@@ -25,7 +37,6 @@ Bunch of stuff, samples discussion whatever
 * http://cascalog.org/
 * http://spark.apache.org/
 * http://blog.brakmic.com/data-science-for-losers/
-
 
 ## Nosql Databases
 
@@ -53,17 +64,6 @@ Bunch of stuff, samples discussion whatever
 ## Libraries
 
 * http://igraph.org/
-
-## Online Education
-
-* https://egghead.io/
-* http://neo4j.com/graphacademy/
-* https://www.coursera.org/
-* https://www.udemy.com/
-* https://www.udacity.com/
-* https://www.codecademy.com/
-* http://online.stanford.edu/courses
-* https://www.edx.org/
 
 
 
