@@ -23,6 +23,7 @@ Bunch of stuff, samples discussion whatever
 * http://zeppelin.incubator.apache.org/
 * http://cascalog.org/
 * http://spark.apache.org/
+* http://blog.brakmic.com/data-science-for-losers/
 
 
 ## Nosql Databases
