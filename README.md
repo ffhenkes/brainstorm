@@ -1,6 +1,10 @@
-# brainstorm
+# Brainstorm
 
 Bunch of stuff, samples discussion whatever
+
+## General
+
+* https://www.thoughtworks.com/radar
 
 ## Online Education
 
@@ -64,6 +68,17 @@ Bunch of stuff, samples discussion whatever
 ## Libraries
 
 * http://igraph.org/
+
+## DevOps
+
+* http://www.go.cd/
+* https://www.docker.com/
+* https://www.vagrantup.com/
+* https://coreos.com/
+* https://terraform.io/
+* https://ottoproject.io/
+* http://www.ansible.com/
+* https://vaultproject.io/ 
 
 
 
