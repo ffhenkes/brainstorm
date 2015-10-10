@@ -108,6 +108,10 @@ Bunch of stuff, samples discussion whatever
 * https://vaultproject.io/ 
 * http://deis.io/overview/
 * http://lattice.cf/ 
+* http://kubernetes.io/
+* http://www.openshift.org/
+* http://rancher.com/rancher/
+* http://rancher.com/rancher-os/
 
 ## Monitoring and "Dashing"
 
