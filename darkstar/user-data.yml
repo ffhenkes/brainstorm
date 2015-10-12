@@ -1,0 +1,78 @@
+#cloud-config
+write_files:
+  - path: /etc/sysctl.d/swapon.conf
+    content: |
+      vm.swappiness=1
+      vm.vfs_cache_pressure=50
+coreos:
+  units:
+    - name: etcd.service
+      mask: true
+    - name: fleet.service
+      mask: true
+
+    - name: rabbitmq-tune.service
+      command: start
+      content: |
+        [Unit]
+        Description=Tunning Bunny Node
+        Before=rabbitmq.service
+        [Service]
+        Type=oneshot
+        ExecStart=/bin/sh -c "/bin/echo 0 > /sys/kernel/mm/transparent_hugepage/khugepaged/defrag"
+        ExecStart=/bin/sh -c "/bin/echo never > /sys/kernel/mm/transparent_hugepage/defrag"
+        ExecStart=/bin/sh -c "/bin/echo never > /sys/kernel/mm/transparent_hugepage/enabled"
+        ExecStart=/bin/sh -c "/bin/echo 0 > /proc/sys/vm/zone_reclaim_mode"
+
+    - name: rabbitmq.service
+      command: start
+      content: |
+        [Unit]
+        Description=Bunny Node - RabbitMQ Message Broker
+        Requires=docker.service
+        After=docker.service
+        [Service]
+        User=core
+        Restart=always
+        TimeoutStartSec=0
+        RestartSec=5
+        LimitFSIZE=infinity
+        LimitCPU=infinity
+        LimitAS=infinity
+        LimitNOFILE=64000
+        LimitNPROC=32000
+        ExecStartPre=-/usr/bin/docker kill bunny
+        ExecStartPre=-/usr/bin/docker rm bunny
+        ExecStartPre=/usr/bin/docker pull rabbitmq:3-management
+        ExecStart=/usr/bin/docker run --name bunny \
+             --net=host \
+             rabbitmq:3-management
+        ExecStop=/usr/bin/docker stop bunny
+
+    - name: mongodb.service
+      command: start
+      content: |
+        [Unit]
+        Description=MongoDB Node
+        Requires=docker.service
+        After=docker.service
+        [Service]
+        User=core
+        Restart=always
+        TimeoutStartSec=0
+        RestartSec=5
+        LimitFSIZE=infinity
+        LimitCPU=infinity
+        LimitAS=infinity
+        LimitNOFILE=64000
+        LimitNPROC=32000
+        ExecStartPre=-/usr/bin/docker kill mongo
+        ExecStartPre=-/usr/bin/docker rm mongo
+        ExecStartPre=/usr/bin/docker pull mongo
+        ExecStart=/usr/bin/docker run --name mongo \
+             --net=host \
+             mongo
+        ExecStop=/usr/bin/docker stop mongo
+
+hostname: darkstar
+manage_etc_hosts: localhost
