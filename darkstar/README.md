@@ -4,11 +4,18 @@ Darkstar its a CoreOS based image built with Vagrant hosting RabbitMQ and MongoD
 
 [Virtualbox](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/) are required.
 
-
 ### Clone
 
 ```bash
 git clone git@github.com:ffhenkes/brainstorm.git && cd brainstorm/darkstar
+```
+
+### Update CoreOS image
+
+Optionally update to the latest alpha image.
+
+```bash
+vagrant box update
 ```
 
 ### Run
@@ -89,6 +96,14 @@ Oct 12 06:05:01 darkstar docker[3067]: 2015-10-12T06:05:01.697+0000 I JOURNAL  [
 sudo systemctl restart <unit-name>
 ```
 
+### RabbitMQ
+
+Access manager at ip: `http://10.101.9.101:15672` and connect with `5672 port`
+
+### MongoDB
+
+Mongo run at `10.101.9.101:27017`
+
 ### Stop
 
 ```bash
@@ -100,17 +115,3 @@ vagrant halt
 ```bash
 vagrant destroy
 ```
-
-### Update CoreOS image
-
-```bash
-vagrant box update
-```
-
-### RabbitMQ
-
-Access manager at ip: `http://10.101.9.101:15672` and connect with `5672 port`
-
-### MongoDB
-
-Mongo run at `10.101.9.101:27017`
