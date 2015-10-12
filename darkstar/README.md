@@ -23,32 +23,6 @@ vagrant up
 vagrant ssh
 ```
 
-### Stop
-
-```bash
-vagrant halt
-```
-
-### Destroy
-
-```bash
-vagrant destroy
-```
-
-### Update CoreOS image
-
-```bash
-vagrant box update
-```
-
-### RabbitMQ
-
-Access manager at ip: `http://10.101.9.101:15672` and connect with `5672 port`
-
-### MongoDB
-
-Mongo run at `10.101.9.101:27017`
-
 ### Checking Journal
 
 A tail -f like command:
@@ -115,3 +89,28 @@ Oct 12 06:05:01 darkstar docker[3067]: 2015-10-12T06:05:01.697+0000 I JOURNAL  [
 sudo systemctl restart <unit-name>
 ```
 
+### Stop
+
+```bash
+vagrant halt
+```
+
+### Destroy
+
+```bash
+vagrant destroy
+```
+
+### Update CoreOS image
+
+```bash
+vagrant box update
+```
+
+### RabbitMQ
+
+Access manager at ip: `http://10.101.9.101:15672` and connect with `5672 port`
+
+### MongoDB
+
+Mongo run at `10.101.9.101:27017`
