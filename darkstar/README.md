@@ -2,7 +2,7 @@
 
 Darkstar its a CoreOS based image built with Vagrant hosting RabbitMQ and MongoDB dockers for development purpose.
 
-Virtualbox and Vagrant are required.
+[Virtualbox](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/) are required.
 
 
 ### Clone
