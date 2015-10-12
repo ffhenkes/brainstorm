@@ -75,6 +75,8 @@ Oct 12 05:00:57 darkstar docker[1327]: * amqp_client
 Oct 12 05:00:57 darkstar docker[1327]: * rabbitmq_management_agent
 ```
 
+### Checking Unit Services
+
 Status of unit service:
 
 ```bash
