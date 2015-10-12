@@ -11,7 +11,7 @@ coreos:
     - name: fleet.service
       mask: true
 
-    - name: rabbitmq-tune.service
+    - name: tune.service
       command: start
       content: |
         [Unit]
