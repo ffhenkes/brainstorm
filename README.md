@@ -123,7 +123,7 @@ Bunch of stuff, samples discussion whatever
 
 ## Security
 
-* https://github.com/StackExchange/blackbox*
+* https://github.com/StackExchange/blackbox
 
 
 
